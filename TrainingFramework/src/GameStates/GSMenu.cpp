@@ -5,6 +5,8 @@ extern int screenHeight; //need get on Graphic engine
 
 GSMenu::GSMenu()
 {
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 }
 

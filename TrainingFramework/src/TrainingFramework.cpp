@@ -43,6 +43,7 @@ void CleanUp()
 GLint _tmain(GLint argc, _TCHAR* argv[])
 {
 
+	
 	ESContext esContext;
 	esInitContext(&esContext);
 	esCreateWindow(&esContext, "Demo Game", screenWidth, screenHeight, ES_WINDOW_RGB | ES_WINDOW_DEPTH);
